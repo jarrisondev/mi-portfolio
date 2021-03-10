@@ -1,0 +1,49 @@
+@import '../../variables';
+
+.Header {
+  color: $fontColor;
+  display: flex;
+  font-size: 1.3vw;
+  font-weight: 500;
+
+  justify-content: flex-end;
+  width: auto;
+
+  .nav {
+    .ul {
+      display: flex;
+      list-style: none;
+      width: max-content;
+      height: max-content;
+      position: relative;
+
+      .li {
+        padding: 0 0 0 3vw;
+        cursor: pointer;
+        transform: translate(0);
+        transition: 0.5s;
+
+        &::before {
+          content: ' ';
+          opacity: 0;
+          transition: all 1s;
+          height: 0.6vh;
+          position: absolute;
+          bottom: -4px;
+          width: 0;
+          background-color: $utilitiesColor;
+        }
+
+        &:hover::before {
+          width: 60%;
+          opacity: 1;
+        }
+
+        &:hover {
+          color: $fontColorHover;
+          transform: translate(1.2vw, 1vh);
+        }
+      }
+    }
+  }
+}

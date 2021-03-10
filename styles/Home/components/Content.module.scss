@@ -1,0 +1,77 @@
+@import '../../variables';
+.Content {
+  display: flex;
+  justify-content: space-between;
+
+  .imageContent {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3vw;
+
+    .image {
+      border-radius: 50vw;
+      width: 21vw;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: auto;
+
+      width: 12vw;
+
+      .icon {
+        width: 1.8vw;
+      }
+    }
+  }
+
+  .principalTextContent {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    justify-content: space-between;
+
+    padding-top: 4vh;
+    width: 35vw;
+
+    .svg {
+      height: 35vh;
+      width: 1.2vw;
+
+      .rect {
+        height: 100vh;
+        width: 100vw;
+      }
+    }
+
+    .h1 {
+      color: $fontColor;
+      font-size: 6.5vw;
+      margin: 1vw 0 0 0;
+      padding: 0;
+
+      width: 30vw;
+    }
+  }
+
+  .secondaryTextContent {
+    color: $fontColor;
+    height: max-content;
+    margin-top: 12vh;
+    width: 24vw;
+
+    .h3 {
+      font-size: 1.9vw;
+      margin: 0;
+    }
+
+    .p {
+      font-size: 1.2vw;
+      margin: 0;
+      margin-top: 3vw;
+      text-align: justify;
+    }
+  }
+}
