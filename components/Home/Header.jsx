@@ -1,4 +1,4 @@
-import S from '../../styles/Home/components/Header.module.scss'
+import styles from '../../styles/Home/components/Header.module.scss'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 
@@ -17,21 +17,21 @@ const Header = (props) => {
   }, [])
 
   return (
-    <div className={S.Header}>
-      <nav className={S.nav}>
-        <ul className={S.ul}>
+    <div className={styles.Header}>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
           <Link href='/'>
-            <li ref={link1} className={S.li}>
+            <li ref={link1} className={styles.li}>
               INICIO
             </li>
           </Link>
           <Link href='/proyectos'>
-            <li ref={link2} className={S.li}>
+            <li ref={link2} className={styles.li}>
               PROYECTOS
             </li>
           </Link>
           <Link href='/habilidades'>
-            <li ref={link3} className={S.li}>
+            <li ref={link3} className={styles.li}>
               HABILIDADES
             </li>
           </Link>

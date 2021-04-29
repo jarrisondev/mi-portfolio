@@ -3,7 +3,7 @@
 .Header {
   color: $fontColor;
   display: flex;
-  font-size: 1.3vw;
+  font-size: 1.4rem;
   font-weight: 500;
 
   justify-content: flex-end;
@@ -12,31 +12,33 @@
   .nav {
     .ul {
       display: flex;
-      list-style: none;
-      width: max-content;
       height: max-content;
+      list-style: none;
       position: relative;
 
+      width: max-content;
+
       .li {
-        padding: 0 0 0 3vw;
         cursor: pointer;
+        padding: 0 0 0 3.5rem;
         transform: translate(0);
         transition: 0.5s;
 
         &::before {
-          content: ' ';
-          opacity: 0;
-          transition: all 1s;
-          height: 0.6vh;
-          position: absolute;
-          bottom: -4px;
-          width: 0;
           background-color: $utilitiesColor;
+          bottom: -4px;
+          content: ' ';
+          height: 0.3rem;
+
+          opacity: 0;
+          position: absolute;
+          transition: all 1s;
+          width: 0;
         }
 
         &:hover::before {
-          width: 60%;
           opacity: 1;
+          width: 60%;
         }
 
         &:hover {

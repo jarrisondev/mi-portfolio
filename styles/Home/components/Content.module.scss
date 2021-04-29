@@ -1,28 +1,46 @@
 @import '../../variables';
+
 .Content {
-  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 18% 40% 35%;
+  grid-template-rows: 1fr auto;
+
   justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2rem;
 
   .imageContent {
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    grid-gap: 3vw;
+    height: 100%;
+    justify-content: center;
+
+    margin-top: 1rem;
+    width: 100%;
 
     .image {
-      border-radius: 50vw;
-      width: 21vw;
+      border-radius: 50%;
+      width: 100%;
     }
+  }
 
-    .icons {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin: auto;
+  .icons {
+    display: flex;
+    flex-direction: row;
+    grid-row: 2;
+    justify-content: space-evenly;
 
-      width: 12vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 60%;
 
-      .icon {
-        width: 1.8vw;
+    .icon {
+      width: 1.5rem;
+      transition: 0.6s;
+
+      &:hover {
+        transform: rotatez(1turn);
       }
     }
   }
@@ -33,45 +51,102 @@
     height: max-content;
     justify-content: space-between;
 
-    padding-top: 4vh;
-    width: 35vw;
+    width: 85%;
 
     .svg {
-      height: 35vh;
-      width: 1.2vw;
+      min-height: 100%;
+      width: 3%;
 
       .rect {
-        height: 100vh;
-        width: 100vw;
+        height: 120%;
+        width: 100%;
       }
     }
 
     .h1 {
       color: $fontColor;
-      font-size: 6.5vw;
-      margin: 1vw 0 0 0;
+      font-size: 5.5rem;
+      margin: 1rem 0 0 0;
       padding: 0;
 
-      width: 30vw;
+      width: 90%;
     }
   }
 
   .secondaryTextContent {
     color: $fontColor;
-    height: max-content;
-    margin-top: 12vh;
-    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
 
     .h3 {
-      font-size: 1.9vw;
+      font-size: 2.33rem;
       margin: 0;
     }
 
     .p {
-      font-size: 1.2vw;
+      font-size: 1.3rem;
       margin: 0;
-      margin-top: 3vw;
+      margin-top: 1rem;
       text-align: justify;
+
+      width: 90%;
+    }
+  }
+
+  .anchor {
+    display: flex;
+    font-weight: 500;
+    grid-column: 3;
+    justify-content: space-between;
+
+    margin-top: 3rem;
+    width: 28%;
+
+    &:hover {
+      p {
+        color: $utilitiesColorHover;
+
+        &::before {
+          background-color: $utilitiesColorHover;
+        }
+      }
+
+      svg {
+        path {
+          fill: $utilitiesColorHover;
+        }
+      }
+    }
+
+    p {
+      color: $utilitiesColor;
+      cursor: pointer;
+      font-size: 1.2rem;
+      margin: 0;
+
+      position: relative;
+
+      &::before {
+        background-color: $utilitiesColor;
+        bottom: 0;
+        content: '';
+        height: 0.1rem;
+
+        position: absolute;
+        width: 100%;
+      }
+    }
+
+    svg {
+      cursor: pointer;
+      width: 1rem;
+
+      path {
+        fill: $utilitiesColor;
+      }
     }
   }
 }

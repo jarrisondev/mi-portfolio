@@ -2,6 +2,11 @@
 
 .HomeContainer {
   background-color: $primaryColor;
-  height: 100vh;
-  padding: 0 5vw;
+  padding: 0 3rem;
+
+  .HomeContent {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
 }
