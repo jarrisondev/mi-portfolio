@@ -1,51 +1,47 @@
 @import '../../variables';
 
 .Header {
-  color: $fontColor;
-  display: flex;
-  font-size: 1.4rem;
-  font-weight: 500;
+	color: $fontColor;
+	display: flex;
+	font-size: 1.4rem;
+	font-weight: 500;
 
-  justify-content: flex-end;
-  width: auto;
+	justify-content: flex-end;
+	width: 100%;
 
-  .nav {
-    .ul {
-      display: flex;
-      height: max-content;
-      list-style: none;
-      position: relative;
+	ul {
+		display: flex;
+		list-style: none;
 
-      width: max-content;
+		li {
+			cursor: pointer;
+			margin-left: 3rem;
+			transform: translate(0);
+			transition: 0.5s;
 
-      .li {
-        cursor: pointer;
-        padding: 0 0 0 3.5rem;
-        transform: translate(0);
-        transition: 0.5s;
+			position: relative;
 
-        &::before {
-          background-color: $utilitiesColor;
-          bottom: -4px;
-          content: ' ';
-          height: 0.3rem;
+			&::before {
+				background-color: $utilitiesColor;
+				bottom: -0.2rem;
+				content: ' ';
+				height: 0.3rem;
 
-          opacity: 0;
-          position: absolute;
-          transition: all 1s;
-          width: 0;
-        }
+				opacity: 0;
+				position: absolute;
+				transition: all 1s;
+				width: 0;
+			}
 
-        &:hover::before {
-          opacity: 1;
-          width: 60%;
-        }
+			&:hover::before {
+				opacity: 1;
+				width: 90%;
+			}
 
-        &:hover {
-          color: $fontColorHover;
-          transform: translate(1.2vw, 1vh);
-        }
-      }
-    }
-  }
+			&:hover {
+				color: $fontColorHover;
+				transform: translate(1.5rem, 0.5rem);
+			}
+		}
+	}
 }

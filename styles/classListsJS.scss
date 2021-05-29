@@ -1,12 +1,12 @@
 @import './variables';
 
 .headerActive {
-  color: $fontColorHover;
-  transform: translate(1.2vw, 1vh) !important;
-  cursor: default !important;
+	color: $fontColorHover;
+	transform: translate(1.5rem, 0.5rem) !important;
+	cursor: default !important;
 
-  &::before {
-    width: 60% !important;
-    opacity: 1 !important;
-  }
+	&::before {
+		width: 90% !important;
+		opacity: 1 !important;
+	}
 }
