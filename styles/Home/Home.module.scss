@@ -1,12 +1,12 @@
 @import '../variables';
 
 .HomeContainer {
-  background-color: $primaryColor;
-  padding: 0 3rem;
+	background-color: $primaryColor;
+	padding: 0 3rem;
 
-  .HomeContent {
-    height: 100%;
-    margin: 0 auto;
-    max-width: 1300px;
-  }
+	.HomeContent {
+		height: 100%;
+		margin: 0 auto;
+		max-width: 1350px;
+	}
 }
