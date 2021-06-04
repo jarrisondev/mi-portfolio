@@ -135,4 +135,44 @@
 			}
 		}
 	}
+
+	@media (max-width: 450px) {
+		align-items: center;
+		grid-template-columns: 100%;
+		justify-content: center;
+		margin-top: 3rem;
+
+		.firstPart {
+			justify-content: center;
+
+			.imgContent {
+				img {
+					width: 11rem;
+				}
+
+				.icons {
+					display: none;
+				}
+			}
+
+			.title {
+				padding-top: 1rem;
+
+				svg {
+					height: 9rem;
+					width: 0.7rem;
+				}
+
+				h1 {
+					font-size: 4rem;
+				}
+			}
+		}
+
+		.secondPart {
+			height: 80%;
+			margin: 0 auto;
+			margin-top: 8rem;
+		}
+	}
 }
