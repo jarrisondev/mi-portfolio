@@ -3,10 +3,15 @@
 .HomeContainer {
 	background-color: $primaryColor;
 	padding: 0 3rem;
+	min-height: 100vh;
 
 	.HomeContent {
 		height: 100%;
 		margin: 0 auto;
 		max-width: 1350px;
+	}
+
+	@media (max-width: 450px) {
+		padding: 0;
 	}
 }

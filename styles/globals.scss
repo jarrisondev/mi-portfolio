@@ -2,6 +2,15 @@
 	transition: all 0.3s ease-in-out;
 }
 
+::-webkit-scrollbar {
+	width: 0.3rem;
+	background-color: #323444;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #242533;
+	border-radius: 5px;
+}
+
 html,
 body {
 	font-size: 16px;
@@ -10,6 +19,9 @@ body {
 
 	@media (max-width: 1300px) {
 		font-size: 1.2vw;
+	}
+	@media (max-width: 450px) {
+		font-size: 3vw;
 	}
 }
 
