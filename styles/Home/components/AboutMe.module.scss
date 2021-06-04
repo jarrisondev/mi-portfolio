@@ -1,7 +1,32 @@
 @import '../../variables';
 
 .AboutMe {
-  background: $secondaryColor;
-  color: $fontColor;
-  margin-top: 3rem;
+	background: $secondaryColor;
+	color: $fontColor;
+	margin-top: 3rem;
+	padding: 1rem 2rem;
+
+	div {
+		align-items: center;
+		display: flex;
+		gap: 2rem;
+		justify-content: space-between;
+
+		svg {
+			height: 8rem;
+			width: 1rem;
+
+			rect {
+				height: 100%;
+				width: 100%;
+			}
+		}
+
+		p {
+			font-size: 1.3rem;
+			text-align: justify;
+			height: 6rem;
+			width: 100%;
+		}
+	}
 }
