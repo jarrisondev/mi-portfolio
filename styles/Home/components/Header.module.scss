@@ -44,4 +44,15 @@
 			}
 		}
 	}
+	@media (max-width: 450px) {
+		ul {
+			justify-content: space-around;
+			padding: 0;
+			width: 100%;
+
+			li {
+				margin: 0;
+			}
+		}
+	}
 }
