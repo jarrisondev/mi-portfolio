@@ -29,4 +29,16 @@
 			width: 100%;
 		}
 	}
+
+	@media (max-width: 450px) {
+		margin-top: 5rem;
+
+		div {
+			flex-direction: column;
+
+			svg {
+				display: none;
+			}
+		}
+	}
 }
