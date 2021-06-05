@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styled from '../../styles/Home/components/Content.module.scss'
+import styled from '../../styles/Home/Content.module.scss'
 
 const Content = () => {
 	return (

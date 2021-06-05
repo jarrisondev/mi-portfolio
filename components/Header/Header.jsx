@@ -1,4 +1,4 @@
-import styled from '../../styles/Home/components/Header.module.scss'
+import styled from '../../styles/Header/Header.module.scss'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 
@@ -10,7 +10,7 @@ const Header = (props) => {
 
 	useEffect(() => {
 		if (props.id === 'home') link = link1.current
-		else if (props.id === 'proyects') link = link2.current
+		else if (props.id === 'projects') link = link2.current
 		else if (props.id === 'abilities') link = link3.current
 
 		link.classList.add('headerActive')
@@ -22,7 +22,7 @@ const Header = (props) => {
 				<Link href='/'>
 					<li ref={link1}>INICIO</li>
 				</Link>
-				<Link href='/proyectos'>
+				<Link href='/projects'>
 					<li ref={link2}>PROYECTOS</li>
 				</Link>
 				<Link href='/habilidades'>

@@ -1,19 +1,17 @@
-import styles from '../styles/Home/Home.module.scss'
-import Header from '../components/Home/Header'
+import Header from '../components/Header/Header'
 import Content from '../components/Home/Content'
 import AboutMe from '../components/Home/AboutMe'
 import Footer from '../components/Footer/Footer'
+import Layout from '../components/Layout/Layout'
 
 const index = () => {
 	return (
-		<div className={styles.HomeContainer}>
-			<div className={styles.HomeContent}>
-				<Header id='home' />
-				<Content />
-				<AboutMe />
-				<Footer />
-			</div>
-		</div>
+		<Layout>
+			<Header id='home' />
+			<Content />
+			<AboutMe />
+			<Footer />
+		</Layout>
 	)
 }
 

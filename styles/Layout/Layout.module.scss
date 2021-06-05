@@ -1,0 +1,12 @@
+@import '../variables';
+
+.Layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0 auto;
+
+	max-width: 1350px;
+	min-height: 100vh;
+	width: 100%;
+}

@@ -11,17 +11,21 @@
 	border-radius: 5px;
 }
 
-html,
-body {
-	font-size: 16px;
+html {
 	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 16px;
+	background-color: #323444;
+	min-height: 100vh;
+	padding: 0 3rem;
 
 	@media (max-width: 1300px) {
 		font-size: 1.2vw;
 	}
+
 	@media (max-width: 850px) {
 		font-size: 3vw;
+		padding: 0;
 	}
 }
 
