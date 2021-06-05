@@ -41,10 +41,15 @@
 		margin-top: 5rem;
 
 		div {
+			margin-top: 1rem;
 			flex-direction: column;
 
 			svg {
 				display: none;
+			}
+
+			p {
+				height: auto;
 			}
 		}
 	}
