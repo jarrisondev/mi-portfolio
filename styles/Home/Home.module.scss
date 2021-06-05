@@ -6,8 +6,9 @@
 	min-height: 100vh;
 
 	.HomeContent {
-		height: 100%;
+		position: relative;
 		margin: 0 auto;
+		min-height: 100vh;
 		max-width: 1350px;
 	}
 
