@@ -11,7 +11,8 @@
       "id":"2",
       "name":"Mi Portafolio",
       "description":"sitio web acerca de mi, mis proyectos, conocimientos y habilidades sobre desarrollo web",
-      "technologies":["Next js","Scss Modules","Json"]
+      "technologies":["Next js","Scss Modules","Json"],
+      "url":"https://mi-portafolio-snowy.vercel.app/"
     },
     {
       "id":"3",
