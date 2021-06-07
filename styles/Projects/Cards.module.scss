@@ -1,0 +1,13 @@
+@import '../variables';
+
+.Cards {
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 25rem);
+	gap: 1rem;
+	background-color: $secondaryColor;
+	// background: linear-gradient(180deg, $secondaryColor 52%, transparent 48%);
+	border: 1px solid red;
+	height: 40rem;
+	color: $fontColor;
+}
