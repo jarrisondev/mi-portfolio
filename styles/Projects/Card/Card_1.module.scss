@@ -1,7 +1,29 @@
 @import '../../variables';
 
 .Card_1 {
-	width: 25rem;
-	height: 20rem;
+	align-items: center;
 	background-color: $primaryColor;
+	display: flex;
+	flex-direction: column;
+
+	height: 17rem;
+	justify-content: space-between;
+	padding: 2rem;
+	width: 20rem;
+
+	h4 {
+		font-size: 1.7rem;
+		margin: 0;
+	}
+
+	p {
+		font-size: 1.1rem;
+		text-align: center;
+	}
+
+	a {
+		color: $utilitiesColor;
+		font-size: 1.1rem;
+		font-weight: 800;
+	}
 }
