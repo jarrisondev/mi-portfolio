@@ -2,7 +2,7 @@ import styled from '../../styles/Home/AboutMe.module.scss'
 
 const AboutMe = () => {
 	return (
-		<div className={styled.AboutMe}>
+		<section className={styled.AboutMe}>
 			<h2> SOBRE MÍ</h2>
 			<div>
 				<p>
@@ -20,7 +20,7 @@ const AboutMe = () => {
 					me gusta experimentar nuevas tecnologías como C++, Kotlin o Phyton.
 				</p>
 			</div>
-		</div>
+		</section>
 	)
 }
 

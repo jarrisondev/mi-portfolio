@@ -2,7 +2,7 @@ import styled from '../../styles/Home/Content.module.scss'
 
 const Content = () => {
 	return (
-		<div className={styled.Content}>
+		<section className={styled.Content}>
 			<div className={styled.firstPart}>
 				<div className={styled.imgContent}>
 					<img src='/Home/index.jpg' alt='foto de perfil' />
@@ -44,7 +44,7 @@ const Content = () => {
 					</svg>
 				</span>
 			</div>
-		</div>
+		</section>
 	)
 }
 
