@@ -1,5 +1,4 @@
 import styled from '../../styles/Header/Header.module.scss'
-import Link from 'next/link'
 import { useEffect, useRef } from 'react'
 
 const Header = (props) => {
@@ -19,15 +18,9 @@ const Header = (props) => {
 	return (
 		<div className={styled.Header}>
 			<ul>
-				<Link href='/'>
-					<li ref={link1}>INICIO</li>
-				</Link>
-				<Link href='/projects'>
-					<li ref={link2}>PROYECTOS</li>
-				</Link>
-				<Link href='/habilidades'>
-					<li ref={link3}>HABILIDADES</li>
-				</Link>
+				<li ref={link1}>INICIO</li>
+				<li ref={link2}>PROYECTOS</li>
+				<li ref={link3}>HABILIDADES</li>
 			</ul>
 		</div>
 	)
