@@ -39,8 +39,16 @@
 			}
 
 			&:hover {
-				color: $fontColorHover;
 				transform: translate(0.5rem, 0.5rem);
+
+				a {
+					color: $fontColorHover;
+				}
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
 			}
 		}
 	}

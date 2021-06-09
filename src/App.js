@@ -1,4 +1,3 @@
-import Header from './components/Header/Header'
 import Content from './components/Home/Content'
 import AboutMe from './components/Home/AboutMe'
 import Footer from './components/Footer/Footer'
@@ -11,7 +10,6 @@ function App() {
 	const { language } = useLanguage()
 	return (
 		<Layout>
-			<Header id='home' />
 			<Content />
 			<AboutMe />
 			{(language ? data_en : data_es).cards.map((projectsList, i) => (
