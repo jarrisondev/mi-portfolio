@@ -1,0 +1,33 @@
+{
+  "text":{
+      "card_1":"Ver",
+      "card_2":["Principal","Estilos","Almacenamiento"]
+  },
+  "cards":[
+    [
+      {
+        "id":"01",
+        "name":"Covid Vaccinations",
+        "description":"Consulta el estado y progreso de la vacunación del COVID-19 en Colombia según datos del Own World Data.",
+        "technologies":["React","Scss Modules","Json"],
+        "url":"https://vacunacion-colombia.vercel.app/"
+      },
+      {
+        "id":"02",
+        "name":"Mi Portafolio",
+        "description":"sitio web acerca de mi, mis proyectos, conocimientos y habilidades sobre desarrollo web",
+        "technologies":["Next js","Scss Modules","Json"],
+        "url":"https://mi-portafolio-snowy.vercel.app/"
+      },
+      {
+        "id":"03",
+        "name":"Keiken Heladería",
+        "description":"Página web para la visualización de información acerca de la heladería Keiken",
+        "technologies":["React","Styled Components","Json"],
+        "url":"https://keiken.vercel.app/"
+  
+      }
+    ]
+  ]
+}
+
