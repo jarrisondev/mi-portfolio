@@ -1,4 +1,4 @@
-import styled from '../../styles/Home/Content.module.scss'
+import styled from '../../styles/Main/Content.module.scss'
 
 const Content = () => {
 	return (
