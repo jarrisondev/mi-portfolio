@@ -1,15 +1,23 @@
+import styled from '../../../styles/Projects/Card/Card_2.module.scss'
+
 const Card_2 = (props) => {
 	return (
-		<div>
-			<p>
-				{props.text[0]} {props.technologies[0]}
-			</p>
-			<p>
-				{props.text[1]} {props.technologies[1]}
-			</p>
-			<p>
-				{props.text[2]} {props.technologies[2]}
-			</p>
+		<div className={styled.Card_2}>
+			<h3>{props.text[0]}</h3>
+			<div>
+				<p>
+					<span>{props.text[1]}</span> <span></span>
+					<span>{props.technologies[0]}</span>
+				</p>
+				<p>
+					<span>{props.text[2]}</span> <span></span>
+					<span>{props.technologies[1]}</span>
+				</p>
+				<p>
+					<span>{props.text[3]}</span> <span></span>
+					<span>{props.technologies[2]}</span>
+				</p>
+			</div>
 		</div>
 	)
 }

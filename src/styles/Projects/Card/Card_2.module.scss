@@ -1,0 +1,35 @@
+@import '../../variables';
+
+.Card_2 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	padding: 1rem;
+
+	h3 {
+		font-size: 1.4rem;
+	}
+
+	div {
+		width: 100%;
+
+		p {
+			display: flex;
+			font-size: 1.2rem;
+			justify-content: space-between;
+			white-space: nowrap;
+
+			span:nth-last-child(2) {
+				border-bottom: 0.3rem dotted $fontColor;
+				margin: 0 0.3rem 0.3rem;
+				width: 100%;
+			}
+
+			span:nth-last-child(1) {
+				color: $fontColorHover;
+			}
+		}
+	}
+}
