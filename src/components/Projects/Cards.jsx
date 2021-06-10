@@ -1,11 +1,19 @@
+import { useEffect, useRef } from 'react'
+import useScrollReveal from '../../hooks/useScrollReveal'
 import styled from '../../styles/Projects/Cards.module.scss'
 import Card_1 from './Card/Card_1'
 import Card_2 from './Card/Card_2'
 
 const Cards = (props) => {
+	const CardsRef = useRef(null)
+
+	useEffect(() => {
+		useScrollReveal(CardsRef.current, 700, 0.3)
+	}, [])
+
 	return (
 		<>
-			<div className={styled.Cards}>
+			<div className={styled.Cards} ref={CardsRef}>
 				{props.projectsList.map((project_data) => {
 					return (
 						<Card_1
