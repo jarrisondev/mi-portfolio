@@ -1,14 +1,22 @@
 @import '../variables';
 
-.Cards {
-	// background-color: $secondaryColor;
-	background: linear-gradient(180deg, $secondaryColor 58%, transparent 42%);
-	color: $fontColor;
-	display: grid;
-	gap: 1rem;
+.Proyects {
+	margin-top: 3rem;
 
-	grid-template-columns: repeat(3, 25rem);
-	height: 40rem;
-	margin-top: 2rem;
-	padding: 3rem;
+	h2 {
+		color: $fontColor;
+		font-size: 2.33rem;
+	}
+
+	.Cards {
+		background-color: $secondaryColor;
+		color: $fontColor;
+		display: grid;
+		gap: 2rem;
+
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 50% 50%;
+		justify-content: space-between;
+		padding: 3rem;
+	}
 }
