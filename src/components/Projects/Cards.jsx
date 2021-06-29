@@ -1,40 +1,40 @@
 import { useEffect, useRef } from 'react'
-import useScrollReveal from '../../hooks/useScrollReveal'
-import styled from '../../styles/Projects/Cards.module.scss'
-import Card_1 from './Card/Card_1'
-import Card_2 from './Card/Card_2'
+import useScrollReveal from 'hooks/useScrollReveal'
+import styled from 'styles/Projects/Cards.module.scss'
+import Card1 from './Card/Card1'
+import Card2 from './Card/Card2'
 
 const Cards = (props) => {
-	const CardsRef = useRef(null)
+  const CardsRef = useRef(null)
 
-	useEffect(() => {
-		useScrollReveal(CardsRef.current, 700, 0.3)
-	}, [])
+  useEffect(() => {
+    useScrollReveal(CardsRef.current, 700, 0.3)
+  }, [])
 
-	return (
-		<>
-			<div className={styled.Cards} ref={CardsRef}>
-				{props.projectsList.map((project_data) => {
-					return (
-						<Card_1
-							key={project_data.id}
-							project_data={project_data}
-							text={props.text.card_1}
-						/>
-					)
-				})}
-				{props.projectsList.map((project_data) => {
-					return (
-						<Card_2
-							key={project_data.id}
-							technologies={project_data.technologies}
-							text={props.text.card_2}
-						/>
-					)
-				})}
-			</div>
-		</>
-	)
+  return (
+    <>
+      <div className={styled.Cards} ref={CardsRef}>
+        {props.projectsList.map((projectData) => {
+          return (
+            <Card1
+              key={projectData.id}
+              projectData={projectData}
+              text={props.text.card1}
+            />
+          )
+        })}
+        {props.projectsList.map((projectData) => {
+          return (
+            <Card2
+              key={projectData.id}
+              technologies={projectData.technologies}
+              text={props.text.card2}
+            />
+          )
+        })}
+      </div>
+    </>
+  )
 }
 
 export default Cards

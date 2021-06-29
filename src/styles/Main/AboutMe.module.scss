@@ -1,56 +1,56 @@
 @import '../variables';
 
 .AboutMe {
-	background: $secondaryColor;
-	color: $fontColor;
-	margin-top: 3rem;
-	padding: 2rem 2rem;
+  background: $secondaryColor;
+  color: $fontColor;
+  margin-top: 8rem;
+  padding: 2rem 2rem;
 
-	h2 {
-		margin: 0;
-	}
+  h2 {
+    margin: 0;
+  }
 
-	div {
-		align-items: center;
-		display: flex;
-		gap: 2rem;
-		justify-content: space-between;
+  div {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
 
-		svg {
-			margin-top: -1rem;
-			height: 11rem;
-			width: 1rem;
+    svg {
+      margin-top: -1rem;
+      height: 11rem;
+      width: 1rem;
 
-			rect {
-				height: 100%;
-				width: 100%;
-			}
-		}
+      rect {
+        height: 100%;
+        width: 100%;
+      }
+    }
 
-		p {
-			margin: 0;
-			line-height: 1.8rem;
-			font-size: 1.4rem;
-			text-align: justify;
-			height: 8rem;
-			width: 100%;
-		}
-	}
+    p {
+      margin: 0;
+      line-height: 1.8rem;
+      font-size: 1.4rem;
+      text-align: justify;
+      height: 8rem;
+      width: 100%;
+    }
+  }
 
-	@media (max-width: 850px) {
-		margin-top: 5rem;
+  @media (max-width: 850px) {
+    margin-top: 5rem;
 
-		div {
-			margin-top: 1rem;
-			flex-direction: column;
+    div {
+      margin-top: 1rem;
+      flex-direction: column;
 
-			svg {
-				display: none;
-			}
+      svg {
+        display: none;
+      }
 
-			p {
-				height: auto;
-			}
-		}
-	}
+      p {
+        height: auto;
+      }
+    }
+  }
 }
