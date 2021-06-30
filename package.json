@@ -26,6 +26,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-node":"11.1.0",
     "standard": "16.0.3"
   },
   "eslintConfig": {
