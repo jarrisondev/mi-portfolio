@@ -1,0 +1,39 @@
+@import '../variables';
+
+.Header{
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: flex-end;
+
+  padding: .5rem;
+
+  select{
+    background-color: $secondaryColor;
+    border: .8rem;
+    color: inherit;
+    cursor: pointer;
+
+    height: 2rem;
+    outline: none;
+    width: 7rem;
+
+    &:hover{
+      opacity: .8;
+    }
+  }
+
+  svg{
+    cursor: pointer;
+    margin-left: 2rem;
+    width: 2.5rem;
+
+    path{
+      fill:#fff;
+    }
+
+    &:hover{
+      opacity: .7;
+    }
+  }
+}

@@ -1,11 +1,11 @@
 import AboutMe from './AboutMe'
 import Content from './Content'
 
-const Main = () => {
+const Main = (props) => {
   return (
     <main>
-      <Content />
-      <AboutMe />
+      <Content language={props.language.content} />
+      <AboutMe language={props.language.aboutMe} />
     </main>
   )
 }

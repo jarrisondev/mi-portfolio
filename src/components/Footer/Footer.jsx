@@ -1,11 +1,10 @@
 import styled from 'styles/Footer/Footer.module.scss'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <footer className={styled.footer}>
-      <p>2021- Todos los derechos reservados </p>
       <p>
-        Hecho con <span>&lt;3</span> por Jarrison Cano
+        {props.language.footer[0]} <span>&lt;3</span><a href='https://github.com/jarrisoncano' target='_blank' rel='noreferrer'>{props.language.footer[1]}</a>
       </p>
     </footer>
   )
