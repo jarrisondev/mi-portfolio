@@ -8,7 +8,7 @@ const ProjectsGroup = (props) => {
   const CardsRef = useRef(null)
 
   useEffect(() => {
-    useScrollReveal(CardsRef.current, 500)
+    useScrollReveal(CardsRef.current, undefined, 0.05)
   }, [])
 
   return (
