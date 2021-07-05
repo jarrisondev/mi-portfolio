@@ -1,8 +1,6 @@
-@import '../../variables';
-
 .Card_1 {
 	align-items: center;
-	background-color: $primaryColor;
+	background-color: var(--primary-color);
 	display: flex;
 	flex-direction: column;
 
@@ -20,7 +18,7 @@
 	}
 
 	a {
-		color: $utilitiesColor;
+		color: var(--utilities-color);
 		font-size: 1.1rem;
 		font-weight: 800;
 	}

@@ -1,8 +1,6 @@
-@import '../variables';
-
 .AboutMe {
-  background: $secondaryColor;
-  color: $fontColor;
+  background: var(--secondary-color);
+  color: var(--font-color);
   margin-top: 5rem;
   padding: 2rem 2rem;
 

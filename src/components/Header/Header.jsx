@@ -3,12 +3,13 @@ import styled from 'styles/Header/Header.module.scss'
 const Header = (props) => {
   return (
     <header className={styled.Header}>
-      <select onChange={(event) => props.setLocale(event.target.value)}>
-        <option default value='es'>Español</option>
+      <select aria-label='language' onChange={(event) => props.setLocale(event.target.value)}>
+        <option value='es'>Español</option>
         <option value='en'>English</option>
       </select>
       <svg
         className='iconTheme'
+        onClick={() => props.setTheme((t) => !t)}
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 20 20'
       >

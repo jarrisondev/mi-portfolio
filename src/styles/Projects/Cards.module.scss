@@ -1,16 +1,14 @@
-@import '../variables';
-
 .Proyects {
 	margin-top: 3rem;
 
 	h2 {
-		color: $fontColor;
+		color: var(--font-color);
 		font-size: 2.33rem;
 	}
 
 	.Cards {
-		background-color: $secondaryColor;
-		color: $fontColor;
+		background-color: var(--secondary-color);
+		color: var(--font-color);
 		display: grid;
 		gap: 2rem;
 
