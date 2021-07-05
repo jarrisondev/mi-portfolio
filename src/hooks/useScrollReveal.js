@@ -4,7 +4,7 @@ const useScrollReveal = (component, delay, scope) => {
   ScrollReveal.reveal(component, srConfig(delay, scope))
 }
 
-const srConfig = (delay = 200, viewFactor = 0.2) => ({
+const srConfig = (delay = 200, viewFactor = 0.18) => ({
   origin: 'bottom',
   distance: '20px',
   duration: 500,

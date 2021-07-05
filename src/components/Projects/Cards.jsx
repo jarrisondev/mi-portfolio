@@ -8,7 +8,7 @@ const Cards = (props) => {
   const CardsRef = useRef(null)
 
   useEffect(() => {
-    useScrollReveal(CardsRef.current, 700, 0.3)
+    useScrollReveal(CardsRef.current, 500)
   }, [])
 
   return (
