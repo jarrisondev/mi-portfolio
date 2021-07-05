@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
-import Cards from './Cards'
-import styled from 'styles/Projects/Cards.module.scss'
+import ProjectsGroup from './ProjectsGroup'
+import styled from 'styles/Projects/Projects.module.scss'
 import useScrollReveal from 'hooks/useScrollReveal'
 
 const Projects = (props) => {
@@ -14,7 +14,7 @@ const Projects = (props) => {
     <section className={styled.Proyects} ref={ProjectsRef}>
       <h2>{props.language.text.title}</h2>
       {props.language.cards.map((projectsList, i) => (
-        <Cards key={i} projectsList={projectsList} text={props.language.text} />
+        <ProjectsGroup key={i} projectsList={projectsList} text={props.language.text} />
       ))}
     </section>
   )
