@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "17.0.2",
@@ -26,10 +27,17 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-node":"11.1.0",
-    "standard": "16.0.3"
+    "eslint-plugin-node": "11.1.0",
+    "prettier": "2.3.2",
+    "standard": "16.0.3",
+    "husky": "7.0.0",
+    "lint-staged": "11.1.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "standard --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
