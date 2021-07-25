@@ -1,58 +1,55 @@
 {
-  "text":{
-      "title":"projects",
-      "card1":"View",
-      "card2":["Technologies used","Principal","Styles","Storage"]
+  "text": {
+    "title": "projects",
+    "card1": "View",
+    "card2": ["Technologies used", "Principal", "Styles", "Storage"]
   },
-  "cards":[
+  "cards": [
     [
       {
-        "id":"01",
-        "name":"Covid Vaccinations",
-        "description":"Check the status and progress of the COVID-19 vaccination in Colombia according to Own World Data.",
-        "technologies":["React","Scss Modules","Json"],
-        "url":"https://vacunacion-colombia.vercel.app/"
+        "id": "01",
+        "name": "Covid Vaccinations",
+        "description": "Check the status and progress of the COVID-19 vaccination in Colombia according to Own World Data.",
+        "technologies": ["React", "Scss Modules", "Json"],
+        "url": "https://vacunacion-colombia.vercel.app/"
       },
       {
-        "id":"02",
-        "name":"Mi Portafolio",
-        "description":"website about me, my projects, knowledge and skills about web development.",
-        "technologies":["Next js","Scss Modules","Json"],
-        "url":"https://jarrisoncano.vercel.app/"
+        "id": "02",
+        "name": "Mi Portafolio",
+        "description": "website about me, my projects, knowledge and skills about web development.",
+        "technologies": ["Next js", "Scss Modules", "Json"],
+        "url": "https://jarrisoncano.vercel.app/"
       },
       {
-        "id":"03",
-        "name":"Keiken Heladería",
-        "description":"Website for displaying information about Keiken ice cream parlor.",
-        "technologies":["React","Styled Components","Json"],
-        "url":"https://keiken.vercel.app/"
-  
+        "id": "03",
+        "name": "Keiken Heladería",
+        "description": "Website for displaying information about Keiken ice cream parlor.",
+        "technologies": ["React", "Styled Components", "Json"],
+        "url": "https://keiken.vercel.app/"
       }
     ],
     [
       {
-        "id":"01",
-        "name":"Covid Vaccinations",
-        "description":"Check the status and progress of the COVID-19 vaccination in Colombia according to Own World Data.",
-        "technologies":["React","Scss Modules","Json"],
-        "url":"https://vacunacion-colombia.vercel.app/"
+        "id": "01",
+        "name": "Covid Vaccinations",
+        "description": "Check the status and progress of the COVID-19 vaccination in Colombia according to Own World Data.",
+        "technologies": ["React", "Scss Modules", "Json"],
+        "url": "https://vacunacion-colombia.vercel.app/"
       },
       {
-        "id":"02",
-        "name":"Mi Portafolio",
-        "description":"website about me, my projects, knowledge and skills about web development.",
-        "technologies":["Next js","Scss Modules","Json"],
-        "url":"https://mi-portafolio-snowy.vercel.app/"
+        "id": "02",
+        "name": "Mi Portafolio",
+        "description": "website about me, my projects, knowledge and skills about web development.",
+        "technologies": ["Next js", "Scss Modules", "Json"],
+        "url": "https://mi-portafolio-snowy.vercel.app/"
       },
       {
-        "id":"03",
-        "name":"Keiken Heladería",
-        "description":"Website for displaying information about Keiken ice cream parlor.",
-        "technologies":["React","Styled Components","Json"],
-        "url":"https://keiken.vercel.app/"
-  
+        "id": "03",
+        "name": "Keiken Heladería",
+        "description": "Website for displaying information about Keiken ice cream parlor.",
+        "technologies": ["React", "Styled Components", "Json"],
+        "url": "https://keiken.vercel.app/"
       }
     ]
   ]
 }
-

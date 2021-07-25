@@ -1,16 +1,16 @@
 {
-  "content":{
-    "description":{
-      "title":"Designer and Developer",
-      "description":"Hi, I am a front-end developer in React js. I am passionate about technology, sports, video games and learning new things.",
-      "anchor":"Contact me"
+  "content": {
+    "description": {
+      "title": "Designer and Developer",
+      "description": "Hi, I am a front-end developer in React js. I am passionate about technology, sports, video games and learning new things.",
+      "anchor": "Contact me"
     }
   },
-  "aboutMe":{
-    "title":"ABOUT ME",
-    "description":{
-      "part1":"I currently live in Medellín, Colombia, where I study technology in web design and development at the Tecnológico de Antioquia (TdeA), my hobby has always been technology, which led me to learn programming from a very early age.",
-      "part2":"I am a JavaScript development lover, my favorite development stack is MERN (Mongo, Express, React Js, NodeJS). Similarly, I like to experiment with new technologies such as TypeScript, Kotlin or Python."
+  "aboutMe": {
+    "title": "ABOUT ME",
+    "description": {
+      "part1": "I currently live in Medellín, Colombia, where I study technology in web design and development at the Tecnológico de Antioquia (TdeA), my hobby has always been technology, which led me to learn programming from a very early age.",
+      "part2": "I am a JavaScript development lover, my favorite development stack is MERN (Mongo, Express, React Js, NodeJS). Similarly, I like to experiment with new technologies such as TypeScript, Kotlin or Python."
     }
   }
 }

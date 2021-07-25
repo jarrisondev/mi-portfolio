@@ -17,10 +17,7 @@ const ProjectsGroup = (props) => {
         {props.projectsList.map((projectData, i) => {
           return (
             <div className='project' key={i}>
-              <Card1
-                projectData={projectData}
-                text={props.text.card1}
-              />
+              <Card1 projectData={projectData} text={props.text.card1} />
               <Card2
                 technologies={projectData.technologies}
                 text={props.text.card2}

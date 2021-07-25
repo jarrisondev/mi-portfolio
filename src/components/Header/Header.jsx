@@ -3,7 +3,10 @@ import styled from 'styles/Header/Header.module.scss'
 const Header = (props) => {
   return (
     <header className={styled.Header}>
-      <select aria-label='language' onChange={(event) => props.setLocale(event.target.value)}>
+      <select
+        aria-label='language'
+        onChange={(event) => props.setLocale(event.target.value)}
+      >
         <option value='es'>Español</option>
         <option value='en'>English</option>
       </select>

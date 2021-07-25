@@ -5,15 +5,11 @@ const AboutMe = (props) => {
     <section className={styled.AboutMe}>
       <h2> {props.language.title}</h2>
       <div>
-        <p>
-          {props.language.description.part1}
-        </p>
+        <p>{props.language.description.part1}</p>
         <svg xmlns='http://www.w3.org/2000/svg'>
           <rect fill='#FFE975' />
         </svg>
-        <p>
-          {props.language.description.part2}
-        </p>
+        <p>{props.language.description.part2}</p>
       </div>
     </section>
   )

@@ -1,41 +1,41 @@
-.Header{
+.Header {
   align-items: center;
   display: flex;
   margin-top: 1rem;
   justify-content: flex-end;
 
-  padding: .5rem;
+  padding: 0.5rem;
 
-  select{
+  select {
     background-color: var(--secondary-color);
-    border: .8rem;
+    border: 0.8rem;
     color: var(--font-color);
     cursor: pointer;
 
     height: 2rem;
     outline: none;
     width: 7rem;
-    
-    &:hover{
-      opacity: .7;
+
+    &:hover {
+      opacity: 0.7;
     }
-    
-    option{
+
+    option {
       cursor: pointer;
     }
   }
 
-  svg{
+  svg {
     cursor: pointer;
     margin-left: 2rem;
     width: 2.5rem;
 
-    path{
-      fill:var(--font-color);
+    path {
+      fill: var(--font-color);
     }
 
-    &:hover{
-      opacity: .7;
+    &:hover {
+      opacity: 0.7;
     }
   }
 }
